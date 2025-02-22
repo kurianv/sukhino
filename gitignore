@@ -1,0 +1,4 @@
+.env
+/unwanted
+/chroma
+/chroma_langchain_db
