@@ -53,12 +53,11 @@ def get_response(prompt, id):
         model="gpt-4",
         messages=message,
 
-    )
-    final = (response.choices[0].message.content).strip().replace("\n            ", "").replace("\n        ", "").replace("\n    ", "").replace("\\", "")
-    
+    )    
 
     with open(f"user{id}.json", "w", encoding="utf-8") as file:
-        json.dump(final, file, indent = 4)
+        json_response = json.loads(response.choices[0].message.content)
+        json.dump(json_response, file, indent=4)
 
-    return final
+    return response.choices[0].message.content
     
