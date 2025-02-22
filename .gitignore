@@ -1,4 +1,4 @@
-unwanted/*
-chroma_langchain_db/*
-chroma/*
+unwanted/
+chroma_langchain_db/
+chroma/
 .env
