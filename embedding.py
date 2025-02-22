@@ -5,27 +5,28 @@ import os
 import datetime
 load_dotenv()
 
-chroma_client = chromadb.Client()
+PERSISENT_FOLDER = "persisent_db"
+
+chroma_client = chromadb.PersistentClient(path=PERSISENT_FOLDER)
 collection = chroma_client.get_or_create_collection("user_response")
-collection.upsert(
-    documents = [],
-    ids = [],
-    embeddings=[]
-
-)
-
 document_history = {}
 
-def embedding(response):
+def embedding(response, id1):
     openai_ef = embedding_functions.OpenAIEmbeddingFunction(
         api_key = os.getenv("OPENAI_API_KEY"),
         model_name = "text-embedding-3-small",  
     )
     embed = openai_ef(response)
 
+    collection.add(
+        documents = [response],
+        ids= [str(id1)],
+        embeddings=[embed]
+    )
+
     return embed
 
-def update(ids, response):
+"""def update(ids, response):
     for i, doc_id in enumerate(ids):
         if doc_id not in document_history:
             document_history[doc_id] = []
@@ -55,3 +56,4 @@ def update(ids, response):
 
 
 
+"""

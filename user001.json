@@ -1,0 +1,42 @@
+{
+    "exercise_plan": [
+        {
+            "name": "Strength training",
+            "description": "Focus on major muscle groups using free weights, resistance bands, or body weight. Exercises like squats, bench presses, and deadlifts are effective.",
+            "sets": "3-4",
+            "duration": "45-60 minutes",
+            "rest": "1-2 minutes between sets"
+        },
+        {
+            "name": "Cardio",
+            "description": "Incorporate moderate-intensity cardio exercises to help maintain cardiovascular health while not overly burning calories necessary for muscle gain.",
+            "sets": "1",
+            "duration": "20 minutes",
+            "rest": "N/A"
+        }
+    ],
+    "diet_plan": [
+        {
+            "meal_number": "1",
+            "meal_name": "Breakfast",
+            "time": "9:00am",
+            "calories": "550",
+            "description": "Puttu (steamed rice cake with coconut) and Kadala Curry (black chickpeas curry) - Provides a high-carb, moderate-protein, and fiber-rich meal."
+        },
+        {
+            "meal_number": "2",
+            "meal_name": "Lunch",
+            "time": "1:00pm",
+            "calories": "600",
+            "description": "Sadya meal (portion control: 2 cups rice, small amounts of Sambar, Aviyal, and Thoran) with added grilled fish for protein."
+        },
+        {
+            "meal_number": "3",
+            "meal_name": "Dinner",
+            "time": "6:30pm",
+            "calories": "600",
+            "description": "Chicken stew with Appam - High protein, and moderate carb meal, useful for muscle repair and growth after workouts."
+        }
+    ],
+    "total_calories": "1750 kcal"
+}

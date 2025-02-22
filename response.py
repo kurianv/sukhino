@@ -1,5 +1,6 @@
 import openAiLLM as ai
-#import embedding as emb
+import embedding as emb
+import gcp_storage as gcp
 
 pi_data =  {
     "Name": "Kurian Vadakara",
@@ -18,8 +19,9 @@ pi_data =  {
 }
 
 response = ai.get_response(f"I want to gain muscle {pi_data}", pi_data["id"])
-print(response)
-#embed = emb.embedding(response)
+embed = emb.embedding(response, "id1")
+gcp.upload()
+
 
 
 

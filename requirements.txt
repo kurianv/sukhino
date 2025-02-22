@@ -3,9 +3,5 @@ python-dotenv
 google.generativeai
 pathlib
 chromadb
-polars
-
-langchain
-langchain[openai]
-langchain-chroma>=0.1.2
-langchain-openai
+google.cloud
+google-cloud-storage
