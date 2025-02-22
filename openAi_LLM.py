@@ -23,25 +23,25 @@ def get_response(prompt, id):
            
     IMPORTANT: RETURN THE RESPONSE **ONLY IN JSON FORMAT** AS SHOWN BELOW AND NO UNWANTED TEXT AS SUMMARY OR CONSULATION:
     {
-        'exercise_plan': [
+        "exercise_plan": [
             {
-                'name': 'Walking',
-                'description': 'Start with 15-20 minutes of walking daily. It will aid in weight loss and improvement of overall cardiovascular health.',
-                'sets': '1',
-                'duration': '15-20 minutes',
-                'rest': 'No specific rest time'
+                "name": "Walking",
+                "description": "Start with 15-20 minutes of walking daily. It will aid in weight loss and improvement of overall cardiovascular health.",
+                "sets": "1",
+                "duration": "15-20 minutes",
+                "rest": "No specific rest time"
             }
         ],
-        'diet_plan': [
+        "diet_plan": [
             {
-                'meal_number': '1',
-                'meal_name': 'Breakfast',
-                'time': '8:00am',
-                'calories': '350',
-                'description': 'Avial (Mixed Veggies) with Brown Rice - Rich in fiber and nutritious.'
+                "meal_number": "1",
+                "meal_name": "Breakfast",
+                "time": "8:00am",
+                "calories": "350",
+                "description": "Avial (Mixed Veggies) with Brown Rice - Rich in fiber and nutritious."
             }
         ],
-        'total_calories': 'xxxx kcal'
+        "total_calories": "xxxx kcal"
     }
     """},
 
@@ -54,10 +54,10 @@ def get_response(prompt, id):
         messages=message,
 
     )    
+    final = str(response.choices[0].message.content).replace("'", "\"")
 
     with open(f"user{id}.json", "w", encoding="utf-8") as file:
-        json_response = json.loads(response.choices[0].message.content)
+        json_response = json.loads(final)
         json.dump(json_response, file, indent=4)
-
     return response.choices[0].message.content
     
