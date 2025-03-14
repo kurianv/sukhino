@@ -54,10 +54,16 @@ def get_response(prompt, id):
         messages=message,
 
     )    
-    final = str(response.choices[0].message.content).replace("'", "\"")
+    final = response.choices[0].message.content
+    try:
+        json_response = json.loads(final) 
+        
+    except json.JSONDecodeError as e:
+        print("JSON Decode Error:", e)
+        print("Received Content:", final)
+        return "Error: Invalid JSON format received from OpenAI."
 
     with open(f"user{id}.json", "w", encoding="utf-8") as file:
-        json_response = json.loads(final)
         json.dump(json_response, file, indent=4)
     return response.choices[0].message.content
     

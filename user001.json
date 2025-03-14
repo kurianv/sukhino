@@ -1,0 +1,43 @@
+{
+    "exercise_plan": [
+        {
+            "name": "Resistance Training",
+            "description": "Focused on overall muscle development. You can do this in the gym or home with the help of weights or bodyweight exercises.",
+            "sets": "3-4",
+            "reps": "8-12",
+            "duration": "1 hour",
+            "rest": "1-2 minutes"
+        },
+        {
+            "name": "Cardiovascular Activity",
+            "description": "Include light to moderate cardio (like 20 mins of brisk walking) to keep your heart healthy and manage body fat level.",
+            "sets": "1",
+            "duration": "20 minutes",
+            "rest": "No specific rest time"
+        }
+    ],
+    "diet_plan": [
+        {
+            "meal_number": "1",
+            "meal_name": "Breakfast",
+            "time": "8:00am",
+            "calories": "600",
+            "description": "A serving of Idly with Sambar - Rich in complex carbohydrates, protein and fiber, this dish will give you energy and keep you full."
+        },
+        {
+            "meal_number": "2",
+            "meal_name": "Lunch",
+            "time": "1:00pm",
+            "calories": "600",
+            "description": "Brown rice with fish curry - Brown rice is high in fiber, and fish is rich in high-quality protein."
+        },
+        {
+            "meal_number": "3",
+            "meal_name": "Dinner",
+            "time": "7:00pm",
+            "calories": "600",
+            "description": "Whole wheat Chapathi with Dal and salad - High in fiber and protein, this meal is ideal for muscle recovery and growth."
+        }
+    ],
+    "total_calories": "1800 kcal"
+}

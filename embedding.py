@@ -16,11 +16,13 @@ def embedding(response, id):
         model_name = "text-embedding-3-small",  
     )
     embed = openai_ef(response)
+    if not isinstance(embed[0], list):
+        embed = [embed]
 
     collection.add(
         documents= [response],
         ids = [id],
-        embeddings= [embed]
+        embeddings= embed
     )
     return embed
 

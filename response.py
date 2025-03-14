@@ -20,9 +20,7 @@ pi_data =  {
 }
 
 response = ai.get_response(f"I want to gain muscle {pi_data}", pi_data["id"])
-print(response)
-
-embed = emb.embedding(response, "id1")
+embed = emb.embedding(response, "id3")
 
 
 
