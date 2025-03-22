@@ -1,0 +1,452 @@
+{
+    "foods": [
+        {
+            "food_name": "fried chicken",
+            "brand_name": null,
+            "serving_qty": 1,
+            "serving_unit": "piece",
+            "serving_weight_grams": 140,
+            "nf_calories": 376.6,
+            "nf_total_fat": 20.89,
+            "nf_saturated_fat": 5.68,
+            "nf_cholesterol": 126,
+            "nf_sodium": 117.6,
+            "nf_total_carbohydrate": 4.41,
+            "nf_dietary_fiber": 0.14,
+            "nf_sugars": 0,
+            "nf_protein": 39.98,
+            "nf_potassium": 327.6,
+            "nf_p": 267.4,
+            "full_nutrients": [
+                {
+                    "attr_id": 203,
+                    "value": 39.984
+                },
+                {
+                    "attr_id": 204,
+                    "value": 20.888
+                },
+                {
+                    "attr_id": 205,
+                    "value": 4.41
+                },
+                {
+                    "attr_id": 207,
+                    "value": 1.372
+                },
+                {
+                    "attr_id": 208,
+                    "value": 376.6
+                },
+                {
+                    "attr_id": 221,
+                    "value": 0
+                },
+                {
+                    "attr_id": 255,
+                    "value": 73.374
+                },
+                {
+                    "attr_id": 262,
+                    "value": 0
+                },
+                {
+                    "attr_id": 263,
+                    "value": 0
+                },
+                {
+                    "attr_id": 268,
+                    "value": 1575
+                },
+                {
+                    "attr_id": 269,
+                    "value": 0
+                },
+                {
+                    "attr_id": 291,
+                    "value": 0.14
+                },
+                {
+                    "attr_id": 301,
+                    "value": 23.8
+                },
+                {
+                    "attr_id": 303,
+                    "value": 1.932
+                },
+                {
+                    "attr_id": 304,
+                    "value": 35
+                },
+                {
+                    "attr_id": 305,
+                    "value": 267.4
+                },
+                {
+                    "attr_id": 306,
+                    "value": 327.6
+                },
+                {
+                    "attr_id": 307,
+                    "value": 117.6
+                },
+                {
+                    "attr_id": 309,
+                    "value": 2.856
+                },
+                {
+                    "attr_id": 312,
+                    "value": 0.105
+                },
+                {
+                    "attr_id": 313,
+                    "value": 20.58
+                },
+                {
+                    "attr_id": 315,
+                    "value": 0.0476
+                },
+                {
+                    "attr_id": 317,
+                    "value": 30.38
+                },
+                {
+                    "attr_id": 318,
+                    "value": 124.6
+                },
+                {
+                    "attr_id": 319,
+                    "value": 37.8
+                },
+                {
+                    "attr_id": 320,
+                    "value": 37.8
+                },
+                {
+                    "attr_id": 321,
+                    "value": 0
+                },
+                {
+                    "attr_id": 322,
+                    "value": 0
+                },
+                {
+                    "attr_id": 323,
+                    "value": 0.882
+                },
+                {
+                    "attr_id": 324,
+                    "value": 8.4
+                },
+                {
+                    "attr_id": 326,
+                    "value": 0.14
+                },
+                {
+                    "attr_id": 328,
+                    "value": 0.14
+                },
+                {
+                    "attr_id": 334,
+                    "value": 0
+                },
+                {
+                    "attr_id": 337,
+                    "value": 0
+                },
+                {
+                    "attr_id": 338,
+                    "value": 0
+                },
+                {
+                    "attr_id": 401,
+                    "value": 0
+                },
+                {
+                    "attr_id": 404,
+                    "value": 0.1218
+                },
+                {
+                    "attr_id": 405,
+                    "value": 0.2702
+                },
+                {
+                    "attr_id": 406,
+                    "value": 12.5888
+                },
+                {
+                    "attr_id": 410,
+                    "value": 1.5106
+                },
+                {
+                    "attr_id": 415,
+                    "value": 0.574
+                },
+                {
+                    "attr_id": 417,
+                    "value": 12.6
+                },
+                {
+                    "attr_id": 418,
+                    "value": 0.434
+                },
+                {
+                    "attr_id": 421,
+                    "value": 111.72
+                },
+                {
+                    "attr_id": 430,
+                    "value": 3.36
+                },
+                {
+                    "attr_id": 431,
+                    "value": 4.2
+                },
+                {
+                    "attr_id": 432,
+                    "value": 8.4
+                },
+                {
+                    "attr_id": 435,
+                    "value": 15.4
+                },
+                {
+                    "attr_id": 454,
+                    "value": 9.52
+                },
+                {
+                    "attr_id": 501,
+                    "value": 0.4522
+                },
+                {
+                    "attr_id": 502,
+                    "value": 1.6534
+                },
+                {
+                    "attr_id": 503,
+                    "value": 2.0146
+                },
+                {
+                    "attr_id": 504,
+                    "value": 2.9288
+                },
+                {
+                    "attr_id": 505,
+                    "value": 3.248
+                },
+                {
+                    "attr_id": 506,
+                    "value": 1.0668
+                },
+                {
+                    "attr_id": 507,
+                    "value": 0.5348
+                },
+                {
+                    "attr_id": 508,
+                    "value": 1.5694
+                },
+                {
+                    "attr_id": 509,
+                    "value": 1.2992
+                },
+                {
+                    "attr_id": 510,
+                    "value": 1.9488
+                },
+                {
+                    "attr_id": 511,
+                    "value": 2.4724
+                },
+                {
+                    "attr_id": 512,
+                    "value": 1.183
+                },
+                {
+                    "attr_id": 513,
+                    "value": 2.2848
+                },
+                {
+                    "attr_id": 514,
+                    "value": 3.5364
+                },
+                {
+                    "attr_id": 515,
+                    "value": 6.0158
+                },
+                {
+                    "attr_id": 516,
+                    "value": 2.4416
+                },
+                {
+                    "attr_id": 517,
+                    "value": 1.9236
+                },
+                {
+                    "attr_id": 518,
+                    "value": 1.4168
+                },
+                {
+                    "attr_id": 601,
+                    "value": 126
+                },
+                {
+                    "attr_id": 606,
+                    "value": 5.684
+                },
+                {
+                    "attr_id": 607,
+                    "value": 0
+                },
+                {
+                    "attr_id": 608,
+                    "value": 0
+                },
+                {
+                    "attr_id": 609,
+                    "value": 0
+                },
+                {
+                    "attr_id": 610,
+                    "value": 0
+                },
+                {
+                    "attr_id": 611,
+                    "value": 0.028
+                },
+                {
+                    "attr_id": 612,
+                    "value": 0.154
+                },
+                {
+                    "attr_id": 613,
+                    "value": 3.976
+                },
+                {
+                    "attr_id": 614,
+                    "value": 1.386
+                },
+                {
+                    "attr_id": 617,
+                    "value": 7.098
+                },
+                {
+                    "attr_id": 618,
+                    "value": 4.158
+                },
+                {
+                    "attr_id": 619,
+                    "value": 0.21
+                },
+                {
+                    "attr_id": 620,
+                    "value": 0.168
+                },
+                {
+                    "attr_id": 621,
+                    "value": 0.07
+                },
+                {
+                    "attr_id": 626,
+                    "value": 0.91
+                },
+                {
+                    "attr_id": 627,
+                    "value": 0
+                },
+                {
+                    "attr_id": 628,
+                    "value": 0.154
+                },
+                {
+                    "attr_id": 629,
+                    "value": 0.014
+                },
+                {
+                    "attr_id": 630,
+                    "value": 0
+                },
+                {
+                    "attr_id": 631,
+                    "value": 0.028
+                },
+                {
+                    "attr_id": 645,
+                    "value": 8.246
+                },
+                {
+                    "attr_id": 646,
+                    "value": 4.774
+                }
+            ],
+            "nix_brand_name": null,
+            "nix_brand_id": null,
+            "nix_item_name": null,
+            "nix_item_id": null,
+            "upc": null,
+            "consumed_at": "2025-03-22T18:00:32+00:00",
+            "metadata": {
+                "is_raw_food": false
+            },
+            "source": 1,
+            "ndb_no": 5008,
+            "tags": {
+                "item": "fried chicken",
+                "measure": null,
+                "quantity": "1.0",
+                "food_group": 8,
+                "tag_id": 567
+            },
+            "alt_measures": [
+                {
+                    "serving_weight": 85,
+                    "measure": "oz",
+                    "seq": 1,
+                    "qty": 3
+                },
+                {
+                    "serving_weight": 314,
+                    "measure": "chicken, bone removed",
+                    "seq": 3,
+                    "qty": 0.5
+                },
+                {
+                    "serving_weight": 188,
+                    "measure": "unit (yield from 1 lb ready-to-cook chicken)",
+                    "seq": 2,
+                    "qty": 1
+                },
+                {
+                    "serving_weight": 314,
+                    "measure": "whole chicken",
+                    "seq": 80,
+                    "qty": 0.5
+                },
+                {
+                    "serving_weight": 140,
+                    "measure": "piece",
+                    "seq": 81,
+                    "qty": 1
+                },
+                {
+                    "serving_weight": 100,
+                    "measure": "g",
+                    "seq": null,
+                    "qty": 100
+                }
+            ],
+            "lat": null,
+            "lng": null,
+            "meal_type": 3,
+            "photo": {
+                "thumb": "https://nix-tag-images.s3.amazonaws.com/567_thumb.jpg",
+                "highres": "https://nix-tag-images.s3.amazonaws.com/567_highres.jpg",
+                "is_user_uploaded": false
+            },
+            "sub_recipe": null,
+            "class_code": null,
+            "brick_code": null,
+            "tag_id": null
+        }
+    ]
+}

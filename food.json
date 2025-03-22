@@ -1,0 +1,29 @@
+{
+    "food_name": [
+        {
+            "food_number": "1",
+            "name": "parotta",
+            "serving_weight_grams": 100,
+            "calorie": 257.54,
+            "total_food_cal": 326.00000000000006,
+            "description": "The plate contains a few parottas, typical South Indian flatbreads."
+        },
+        {
+            "food_number": "2",
+            "name": "chicken curry",
+            "serving_weight_grams": 150,
+            "calorie": 243.26,
+            "total_food_cal": 155.55697659547258,
+            "description": "Served with the parotta is a portion of chicken curry with visible pieces of chicken."
+        },
+        {
+            "food_number": "3",
+            "name": "fried chicken",
+            "serving_weight_grams": 120,
+            "calorie": 376.6,
+            "total_food_cal": 322.8,
+            "description": "Several pieces of fried chicken in a dark batter are seen on the plate."
+        }
+    ],
+    "total_calories": 805
+}

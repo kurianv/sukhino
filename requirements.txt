@@ -1,8 +1,5 @@
 openai
 python-dotenv
-google.generativeai
-pathlib
-chromadb
-google.cloud
-google-cloud-storage
+nutritionix
+requests
 
