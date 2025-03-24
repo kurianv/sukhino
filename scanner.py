@@ -100,8 +100,7 @@ def calorieCounter(food):
     return response.json()["foods"][0]["nf_calories"], response.json()["foods"][0]["serving_weight_grams"]
 
 
-calorieCounter("appam")
-image_details("food.jpg")
+image_details("appam.jpg")
 
 
 
