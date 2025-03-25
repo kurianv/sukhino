@@ -68,7 +68,8 @@ def image_details(image_path):
     total = 0
     for i in range(len(json_response["food_name"])):
         cal, grams = calorieCounter(json_response["food_name"][i]["name"])
-        count  = json_response["food_name"][i]["serving_weight_grams"]/grams
+        print(grams)
+        count  = round(json_response["food_name"][i]["serving_weight_grams"]/grams)
         json_response["food_name"][i]["calorie"] = cal
         json_response["food_name"][i]["total_food_cal"] = cal * count
         print("For", round(count), json_response["food_name"][i]["name"], ":", round(json_response["food_name"][i]["total_food_cal"]))
@@ -100,7 +101,7 @@ def calorieCounter(food):
     return response.json()["foods"][0]["nf_calories"], response.json()["foods"][0]["serving_weight_grams"]
 
 
-image_details("appam.jpg")
+image_details("h.jpg")
 
 
 
